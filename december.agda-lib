@@ -1,0 +1,14 @@
+name: december-0.1
+include: src
+depend:
+  cubical-mini-0.3
+flags:
+  --erased-cubical
+  --erasure
+  --erased-matches
+  --guardedness
+  --no-import-sorts
+  --postfix-projections
+  --hidden-argument-puns
+
+  -WnoUnsupportedIndexedMatch
